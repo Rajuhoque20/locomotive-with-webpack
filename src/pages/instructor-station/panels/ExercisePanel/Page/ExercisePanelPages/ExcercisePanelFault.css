@@ -1,0 +1,50 @@
+.e_p_Faults {
+    margin-top: 1vh;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding:1vh;
+}
+
+.e_p_Faults_header {
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+}
+
+.e_p_Faults_Content {
+    border: 1px solid rgba(255, 255, 255, 0.209);
+    width: 100%;
+    height: 74.5vh;
+    border-radius: 12px;
+    background: var(--Windows-Glass, rgba(17, 20, 48, 0.348));
+    background-blend-mode: luminosity;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+}
+
+.e_p_f_t_header {
+    width: 33.33%;
+    height: 6.5vh;
+    backdrop-filter: blur(100px);
+    border-bottom: 1.4px solid rgba(255, 255, 255, 0.263);
+    text-align: left;
+    color: white;
+    font-size: var(--font-size-3);
+    padding: 2vh;
+    border-bottom: 0.4vh solid rgba(255, 255, 255, 0.375);
+}
+
+.e_p_f_t_row {
+    height: 6.6vh;
+    text-align: left;
+    color: white;
+    font-size: var(--font-size-3);
+}

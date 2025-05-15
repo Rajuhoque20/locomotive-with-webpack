@@ -1,0 +1,31 @@
+.ep_nav_div{
+  display: flex;
+  justify-content: space-between; align-items: center;
+  width: 100%;
+  height: 8vh;
+  background-blend-mode: luminosity;
+  background-color: initial;
+  background: var(--Windows-Glass, rgba(20, 17, 48, 0.398));
+  backdrop-filter: blur(100%);
+  color: inherit;
+  outline: "none";
+  padding:1.5vh;
+}
+
+
+.ep_nav_input{
+    width: 18vw;
+    height:6vh;
+    border-radius: 1vh;
+    background: var(--Windows-Glass, rgba(20, 17, 48, 0.471)); 
+    color: aliceblue;
+    padding: 3vh;
+    border: none;
+    font-size: var(--font-size-3);
+}
+
+.ep_nav_input::placeholder{
+  color: rgba(117, 117, 117, 0.615);
+  font-size: var(--font-size-3);
+  border: none;
+  }

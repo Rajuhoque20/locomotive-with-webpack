@@ -1,0 +1,13 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 100%;
+}
+.container>*{
+    border:var(--border-primary);
+}
+.container>:nth-child(1){
+    grid-row: span 5;
+    grid-column: span 7;
+}

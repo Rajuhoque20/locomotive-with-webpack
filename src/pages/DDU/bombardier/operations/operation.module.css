@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    border: var( --border-primary);
+    flex: 1;
+    height: 23rem;
+}
+
+.container>*{
+    border: var( --border-primary);
+}
+.container>:nth-child(8)
+{
+    grid-column: span 5;
+    grid-row: span 4;
+}

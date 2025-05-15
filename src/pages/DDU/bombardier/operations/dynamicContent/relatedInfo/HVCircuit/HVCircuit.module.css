@@ -1,0 +1,24 @@
+.container{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: repeat(13, 1fr);
+    height: 100%;
+
+}
+.container>*{
+    border: var( --border-primary);
+    color: var(--color-blue);
+    font-size: 0.5rem;
+}
+.container>:nth-child(2n-1)
+{
+    padding-left:1rem ;
+    display: flex;
+    align-items: center;
+}
+.container>:nth-child(2n)
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

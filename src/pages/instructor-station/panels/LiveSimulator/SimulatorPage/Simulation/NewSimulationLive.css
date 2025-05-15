@@ -1,0 +1,99 @@
+.dragable_div {
+    border: 0.1vh solid rgba(255, 255, 255, 0.263);
+    height: 16vh;
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    border-radius: 2vh;
+    padding: 0.5vh;
+    background: radial-gradient(100% 100% at 50% 100%, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 68.75%),
+        radial-gradient(101.06% 100% at 50% 100%, rgba(94, 94, 94, 0.32) 0%, rgba(94, 94, 94, 0) 73.85%);
+    background-blend-mode: lighten, color-dodge;
+}
+
+
+.dragable_div img {
+    height: 5vh;
+    width: 5vh;
+}
+
+.dragable_action {
+    width: 13vw;
+    height: 100%;
+    display: flex;
+    /* align-items: center;
+    justify-content: space-between; */
+    flex-direction: column;
+
+}
+
+.dragable_actionA,
+.dragable_actionB {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vh;
+
+}
+
+.dragable_actionA img {
+    height: 3vh;
+    width: 3vh;
+}
+
+
+.dragable_actionB {
+    padding: 0.5vh;
+    border-top: 0.1vh solid rgba(255, 255, 255, 0.261);
+}
+
+.dragable_actionB_inner {
+    border-radius: 1.2vh;
+    background: var(--Windows-Glass, rgba(19, 10, 40, 0.601));
+    background-blend-mode: luminosity;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5vh;
+    padding: 0.5vh;
+}
+
+.dragable_actionB_inner img {
+    height: 3vh;
+    width: 3vh;
+}
+
+
+.dragoutin {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 0.1vh solid rgba(255, 255, 255, 0.356);
+}
+
+.dragmovediv {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 0.1vh solid rgba(255, 255, 255, 0.467);
+}
+
+.dragmovediv img {
+    height: 2vh;
+    width: 2vh;
+}
+
+.dragmovediv img:hover {
+    height: 3vh;
+    width: 1.5vh;
+}

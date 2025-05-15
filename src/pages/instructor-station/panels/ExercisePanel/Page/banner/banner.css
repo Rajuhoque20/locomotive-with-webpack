@@ -1,0 +1,72 @@
+.banner{
+    background-image: url('../../../../assets/Instructor-station/Icons/banner_image.svg');
+    padding: 1.5rem;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 12rem;
+    background-position: center;
+    border-radius: 32px;
+    border-top: 1.4px solid rgba(255, 255, 255, 0.40);
+    border-left: 1px solid rgba(255, 255, 255, 0.40);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.40);
+    flex-direction: column;
+}
+.banner h2{
+    color: var(--Text-Primary, rgba(255, 255, 255, 0.96));
+}
+.banner small{
+color: var(--Text-Secondary, rgba(255, 255, 255, 0.411));
+font-feature-settings: 'liga' off, 'clig' off;
+font-size: 0.9rem;
+margin-top: 0.5rem;
+}
+.banner button{
+margin-top: auto;
+border-radius: 12px;
+background: radial-gradient(101.08% 100% at 50% 100%, rgba(94, 94, 94, 0.14) 0%, rgba(94, 94, 94, 0.00) 73.85%), radial-gradient(100.02% 100% at 50% 100%, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.00) 55.59%), linear-gradient(0deg, var(--grey-18, rgba(94, 94, 94, 0.18)) 0%, var(--grey-18, rgba(94, 94, 94, 0.18)) 100%), linear-gradient(90deg, #0A84FF 0%, #00D9FF 100%);
+background-blend-mode: color-dodge, normal, color-dodge, lighten;
+height: clamp(2.5rem,6.5vh, 6.5vh);
+width: clamp(11rem,20vw, 20vw);
+font-size: clamp(12px, 1.7vmin, 1.7vmin);
+border: 0;
+display: flex;
+justify-content:center ;
+align-items: center;
+gap: 0.5rem;
+
+font-weight: 600;
+cursor: pointer;
+}
+.banner button:hover{
+    font-size: clamp(14px, 1.8vmin, 1.8vmin);
+   transition: 0.2s all ease-in-out;
+}
+
+
+@media(min-width:1700px)
+{
+    .banner{
+        padding: 2vh 2vw;
+        height: 30vh;
+        border-radius: 32px;
+        border-top: 0.2vmin solid rgba(255, 255, 255, 0.40);
+        border-left: 0.1vmin solid rgba(255, 255, 255, 0.40);
+        border-bottom: 0.05vmin solid rgba(255, 255, 255, 0.40);
+    }
+    .banner button{
+        gap: 1vw;
+        font-size: 3vmin;
+     }
+    .banner small{
+        font-size: 2vmin;
+        margin-top: 1vh;
+    }
+    .banner h2{
+       font-size: 4vmin;
+    }
+    .banner img{
+        width: 3vmin;
+        height: 3vmin;
+    }
+}

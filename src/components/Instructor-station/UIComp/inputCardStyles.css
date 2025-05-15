@@ -1,0 +1,51 @@
+.form{
+  width: 100%; 
+  height:12vh;
+  gap:1.2vh;
+  border-width: 1px 0.5px 1px 0.5px;
+  padding: 1.6vh 3.2vh 1.6vh 3.2vh;
+  border-top: 0.1vh solid rgb(141, 139, 139);
+  background-blend-mode: luminosity;
+  backdrop-filter: blur(100px);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.form img{
+  width: 2vh;
+  height: 2vh;
+}
+  
+  .input_lable {
+      width: 100%;
+      height: 8vh;
+      background-blend-mode: luminosity;
+      background-color:initial;
+      background: var(--Windows-Glass, rgba(19, 17, 39, 0.512));
+      backdrop-filter: blur(40px);
+      color: inherit;
+      outline: none;
+      border: none;
+      color: rgb(140, 138, 138);
+      border-radius: 1vh;
+      padding: 1.6vh;
+      /* border: 1px solid red; */
+      font-size: var(--font-size-3); ;
+  }  
+  
+  .input_lable::placeholder{
+    font-size: var(--font-size-3);
+    text-align: left;
+  }
+  
+
+  .form-label{
+      width: 100%;
+      font-family: 'SF Pro', sans-serif;
+      font-size: var(--font-size-3);
+      font-weight: 510;
+      text-align: left;
+      color: rgb(255, 255, 255);
+  }
+  

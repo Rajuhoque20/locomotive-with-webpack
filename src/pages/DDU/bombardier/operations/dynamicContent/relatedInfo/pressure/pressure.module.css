@@ -1,0 +1,12 @@
+.container{
+    font-size: 0.6rem;
+    grid-template-columns: 1.8fr 1fr 1fr;
+    grid-template-rows: repeat(13, 1fr);
+    height: 100%;
+}
+.container>*{
+    border: var(--border-primary);
+}
+.title{
+    padding-left: 0.3rem;
+}

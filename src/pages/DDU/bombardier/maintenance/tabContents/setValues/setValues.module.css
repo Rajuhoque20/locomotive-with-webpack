@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 0 1vh;
+    gap: 1vw;
+}
+
+.subTabs{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1vh;
+}
+.subTabs>*{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-4);
+    cursor: pointer;
+    color: var(--color-white);
+}

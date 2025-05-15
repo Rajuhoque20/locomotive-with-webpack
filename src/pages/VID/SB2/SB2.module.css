@@ -1,0 +1,176 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+    padding: 3vh 0;
+    background-image: url('../../../assets/VID/icons/HB_background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.container>*{
+    background-image: url('../../../assets/VID/icons/HB_image_3.svg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 94%;
+    height: 15%;
+    display: flex;
+}
+.switchContainer{
+    height: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0 1.5vw ;
+    width: 94% !important;
+    gap: 0.5%;
+}
+.SB2Contentbox2{
+    height: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 1vw;
+}
+.container>:nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container>:nth-child(4){
+    height: 18%;
+    display: flex;
+    align-items: center;
+    gap: 0vw;
+}
+.container>:nth-child(4)>*{
+    width: 20%;
+    height: 90%;
+}
+.switches{
+    height: 90%;
+}
+
+.description{
+    color: #fff;
+    background-color: #000;
+    width: 1.5vw;
+    height: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem;
+}
+
+.description span{
+    font-size:0.9vh;
+    font-weight: 400;
+    writing-mode:vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+    line-height: 1;
+}
+.fireDetecContent{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 1vh;
+}
+.fireDetecContent>:nth-child(1){
+    font-size: 1.1vh;
+    font-weight: 600;
+    border: 1px solid #000;
+    padding: 0.3vh;
+}
+.fireDetecContent>:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1vh;
+    font-weight: 600;
+    gap: 0.3vh;
+}
+.fireDetecContent>:nth-child(2)>*{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 0.7vw;
+}
+.fireDetecContent>:nth-child(2)>*>:nth-child(1){
+    width: 90%;
+    text-align: right;
+}
+.fireDetecContent img{
+    height: 1.5vh;
+    width: 1.5vh;
+}
+.blockingDiodes{
+    position: relative;
+    width: 25%;
+    height: 70%;
+}
+.blockingDiodes>*{
+    position: absolute;
+}
+.blockingDiodes>*:nth-child(2){
+    left: 10%;
+}
+.blockingDiodes>*:nth-child(3){
+    left: 20%;
+}
+.blockingDiodes>*:nth-child(4){
+    left: 50%;
+}
+.blockingDiodes>*:nth-child(5){
+    left: 60%;
+}
+.blockingDiodes>*:nth-child(6){
+   left: 70%;
+}
+
+
+.SBRelay{
+    display: flex;
+    width: 20%;
+    height: 90%;
+    align-items: center;
+}
+.SBRelay>*{
+   height: 100%;
+   width: 50%;
+}
+
+.SBContactor{
+   display: flex;
+   align-items: center;
+    width: 20%;
+    height: 100%;
+}
+.SBContactor>*{
+    width: 50%;
+}
+.SBContactor>*:nth-child(2){
+    left: 50%;
+}
+.SBUnknown1{
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+.SBUnknown1>*{
+    position: absolute;
+    width: 10vh;
+    height: 20vh;
+    top: 20%;
+}
+.SBUnknown1>*:nth-child(2){
+    left: 50%;
+}
+

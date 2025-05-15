@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+}
+.container > :nth-child(1) {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #000;
+  flex-direction: column;
+}
+.ohemast {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 0, 1);
+  font-size: var(--font-size-3);
+  font-weight: 600;
+  align-items: center;
+}
+.ohemast > :nth-child(2) {
+  width: 90%;
+  background-color: rgba(255, 255, 0, 1);
+  height: 2px;
+}

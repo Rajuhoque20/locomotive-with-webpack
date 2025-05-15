@@ -1,0 +1,118 @@
+.dduContainer{
+display: flex;
+border:0.4vw solid #2b2d30;
+border-radius: 1.2vw;
+flex-direction: column;
+height: 100%;
+}
+.dduParts{
+    border: 0.2vw solid #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   grid-template-rows:0.25fr 0.3fr 0.25fr ;
+    border-radius: 1.2vw; 
+    padding: 0.5vw;
+    height: 90%;
+}
+.dduText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    height: 10%;
+}
+
+.partAWrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 2fr;
+}
+.partAWrapper >:nth-child(n+5)
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #fff;
+    padding: 0.2vw;
+}
+.partAWrapper>:nth-child(n+5) span
+{
+    color: #fff;
+    font-size: 0.7vw !important;
+    font-family: 'Graduate', sans-serif; 
+}
+
+.twoTextCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:1px solid white;
+    color: #fff;
+}
+.twoTextCenter>:nth-child(1)
+{
+    font-size: 1vw;
+    font-family: 'Graduate', sans-serif; 
+}
+.twoTextCenter>:nth-child(2)
+{
+    font-size: 0.6vw;
+    font-family: 'Graduate', sans-serif; 
+}
+.partBWrapper{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.partBContent{
+    font-family:'Graduate', sans-serif; 
+    font-size: 1vw;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.partEWrapper{
+    display: grid;
+    height: 100%;
+    grid-template-columns:repeat(4, 1fr);
+}
+.partEWrapper>*{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 0.2vw;
+    gap: 0;
+}
+.partEWrapper>* img{
+    width: 3.3vw;
+    height: 2.4vw;
+    object-fit: cover;
+}
+
+.partFWrapper{
+    display: flex;
+    padding-left: 0.5vw;
+    justify-content: center;
+    flex-direction: column;
+}
+.partFWrapper>:nth-child(1)
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.partFWrapper>* span{
+    color: #f5f504;
+    font-size: 0.8vw;
+}
+.partFWrapper>:nth-child(2)
+{
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr 1fr 1fr 1fr;
+}
+

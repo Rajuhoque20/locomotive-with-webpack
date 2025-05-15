@@ -1,0 +1,271 @@
+/* ----------------------------2cl popUp------------------------------ */
+.two_cl_container {
+    height: 27vh;
+    width: 15vw;
+    border-radius: 1.2vh;
+    background: rgba(128, 128, 128, 0.556);
+    background-blend-mode: luminosity;
+    backdrop-filter: blur(100px);
+    border: 0.1vh solid rgba(255, 255, 255, 0.207);
+    overflow: hidden;
+    padding: 1vh;
+    gap: 1vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.shuntingView,
+.signalView {
+    width: 100%;
+    height: 18vh;
+    background: var(--Windows-Glass, rgba(17, 20, 48, 0.501));
+    background-blend-mode: luminosity;
+    backdrop-filter: blur(100px);
+    border-radius: 1.2vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    gap: 1vh;
+    border: 0.1vh solid rgba(255, 255, 255, 0.411);
+}
+
+
+
+
+.shuntingName,
+.signalName {
+    width: 100%;
+    height: 3vh;
+    padding: 2vh;
+    gap: 1vh;
+    color: white;
+    font-family: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 1vh;
+    font-weight: 700;
+    font-size: 2.7vh;
+}
+
+.shunting_list,
+.signal_list {
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 1vh;
+    gap: 1vh;
+    overflow-x: auto;
+}
+
+.signal_list::-webkit-scrollbar {
+    display: none;
+}
+
+
+.sdivBox,
+.divBox {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2vh;
+    backdrop-filter: blur(100px);
+    background: rgba(255, 255, 255, 0.379);
+    border: 0.1vh solid rgba(255, 255, 255, 0.282);
+    padding: 0.5vh;
+}
+
+.sactiveDivbox,
+.activeDivbox {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2vh;
+    backdrop-filter: blur(100px);
+    background: radial-gradient(101.08% 100% at 50% 100%, rgba(94, 94, 94, 0.14) 0%, rgba(94, 94, 94, 0.00) 73.85%), radial-gradient(100.02% 100% at 50% 100%, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.00) 55.59%), linear-gradient(0deg, var(--grey-18, rgba(94, 94, 94, 0.18)) 0%, var(--grey-18, rgba(94, 94, 94, 0.18)) 100%), linear-gradient(90deg, #0A84FF 0%, #00D9FF 100%);
+    background-blend-mode: color-dodge, normal, color-dodge, lighten;
+    padding: 0.5vh;
+}
+
+.genric_popup_action {
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 1vh;
+    padding: 0.5vh;
+}
+
+.signalsDataview {
+    /* border: 1px solid red; */
+    max-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.signalsDataview::-webkit-scrollbar {
+    display: none;
+
+}
+
+/* ----------------------------2cl popUp------------------------------ */
+
+.tepopupContainer{
+  height: 100%;
+  width: 100%;
+  border-radius: 1.2vh;
+  /* backdrop-filter: blur(100%); */
+  background:rgba(195, 195, 195, 0.307);
+  background-blend-mode: luminosity;
+
+  border: 0.3vh solid rgba(255, 255, 255, 0.275);
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+  overflow: hidden;
+}
+
+.tepopupButtons{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 5%;
+  padding-right: 2%;
+  align-items: center;
+  justify-content: left;
+  gap: 4%;
+  cursor: pointer;
+}
+
+.tepopupButtonstext{
+    color: rgba(255, 255, 255, 0.678);
+    font-weight: 400;
+    font-size: 2.2vh;
+    font-family: "SF Pro", sans-serif;
+
+}
+
+.addtePopContainer{
+    height:100%;
+    width: 100%;
+    background-blend-mode: luminosity;
+    border-radius:1.2vh ;
+    border-right: 0.1vh solid rgba(255, 255, 255, 0.375);
+    overflow: hidden;
+    border-radius: 1.2vh;
+    background-image: url("./../../../../../../assets/Instructor-station/Icons/background_image.svg");
+    background-repeat: no-repeat;
+    background-color: var(--Windows-Glass, rgba(12, 14, 53, 0.211));
+    }
+
+.addtePopContainerInner{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background:  var(--Windows-Glass, rgba(8, 6, 34, 0.3));
+    background-blend-mode: luminosity;
+
+}
+
+.addtePopContainerInner2{
+    backdrop-filter: blur(100px);
+    height:100%;
+    width: 100%;
+    background:  var(--Windows-Glass, rgba(103, 103, 103, 0.257));
+    position: relative;
+}
+
+.addteFooter{
+    height:10%;
+    width: 90%;
+    position: absolute;
+    bottom: 2%;
+    left: 1.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding-left: 2%;
+    gap: 2%;
+}
+
+.addteactions{
+    width: 100%;
+    height: 80%;
+    position:absolute;
+    top: 0%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.addteactionView{
+  width: 100%;
+  height: 20%;
+  border-radius: 1.2vh;
+  background:  var(--Windows-Glass, rgba(20, 10, 68, 0.257));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  padding: 2%;
+  gap: 2%;
+  color: white;
+  font-weight: 500;
+  font-size: 2vh;
+}
+
+.addteleft{
+   width: 30%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: left;
+}
+
+.addteright{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addteselecetdInfo{
+  height: 80%;
+  width: 100%;
+  border-radius: 1.2vh;
+  background: var(--Windows-Glass,rgba(17, 6, 36, 0.519));
+  color: rgba(255, 255, 255, 0.323);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 2vh;
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.4);
+
+}
+
+.addterightactions{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 1%;
+}
+
+
+
+

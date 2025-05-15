@@ -1,0 +1,19 @@
+.container{
+    grid-template-columns: repeat(9, 1fr);
+    height: 100%;
+    /* grid-template-rows: repeat(13, 1fr); */
+    font-size: 0.6rem;
+}
+.container>*{
+    border: var(--border-primary);
+}
+.title{
+    grid-column: span 3;
+    padding-left: 0.3rem;
+}
+.container>*:nth-child(11){
+    grid-row: span 3;
+}
+.container>*:nth-child(12){
+    grid-row: span 3;
+}

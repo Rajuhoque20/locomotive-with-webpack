@@ -1,0 +1,165 @@
+.dpwcs_home_div{
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(circle, rgb(49, 49, 49) 50%, black 100%);
+    display: flex;
+    flex-direction: row;
+}
+
+.dpwcs_left_actions{
+   width: 15%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   padding: 2vh;
+   gap: 1vh;
+}
+
+.dpwcs_content_div{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dpwcs_header{
+   width: 100%; 
+   height: 10%;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 2vw;
+   font-family: 'Instrument Sans', sans-serif;
+   font-weight: 700;
+}
+
+.dpwcs_content{
+    height: 90%;
+    width: 100%;
+    padding: 2vh;
+}
+
+.dpwcs_content_pages{
+ height: 90%;
+ width: 100%;
+ background: rgba(135, 206, 250, 1);
+}
+
+
+.dpwcs_right_actions{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+    gap: 1vh;
+}
+
+.mode_action_button{
+  height: 6vh;
+  width: 10vw;
+  background: rgba(30, 144, 255, 1);
+  border: none;
+  color: white;
+}
+
+
+.top_div{
+    width: 100%;
+    height: 40%;
+    padding: 1vh;
+}
+
+.bottom_div{
+    width: 100%;
+    height: 60%;
+    padding: 1vh;
+}
+
+.top_div_header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_div_header img{
+    height: 100%;
+    width: 100%;
+}
+
+.top_div_buttons{
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1vh;
+    gap: 1vh;
+
+}
+
+.action_button{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action_button img{
+    height: 8vh;
+    width: 100%;
+    object-fit: fill;
+}
+.bottom_div_header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom_div_header img{
+    height: 100%;
+    width: 100%;
+}
+
+.bottom_div_buttons{
+    width: 100%;
+    height: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1vh;
+    gap: 1vh;
+}
+
+.right_bottom_div_buttons{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.right_bottom_top_buttons{
+    width:100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1vh;
+    gap: 1vh;
+}
+
+.right_bottom_bottom_button{
+    width:100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right_bottom_bottom_button img{
+    height: 100%;
+    width: 100%;
+}

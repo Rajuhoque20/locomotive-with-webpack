@@ -1,0 +1,22 @@
+.custom-select {
+  border: 0;
+  width: 100%;
+}
+
+.custom-select .ant-select-selector {
+  background: rgba(94, 94, 94, 0.36) !important;
+  color: #fff !important;
+  font-size: var(--font-size-4) !important;
+}
+
+.custom-select .ant-select-arrow {
+  color: #fff; /* Dropdown icon color */
+  font-size: var(--font-size-4) !important;
+}
+
+.custom-select .ant-select-item-option-content {
+  color: #fff; /* Dropdown option text color */
+}
+.custom-select .ant-select-selection-placeholder {
+  color: #fff; /* Custom placeholder color */
+}

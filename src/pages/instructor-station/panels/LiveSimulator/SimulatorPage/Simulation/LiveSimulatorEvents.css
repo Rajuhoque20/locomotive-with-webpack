@@ -1,0 +1,70 @@
+.scenario_div {
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3.15vh;
+    padding: 2vh;
+
+}
+
+
+.header_actions{
+  width: 100%;
+  height: 6.95vh;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.scenario_footer {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 84px;
+    top: 796px;
+    left: 273px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_actions,.right_actions{
+ width: 100%;
+ height: 100%;
+ gap: 0.73vw;
+}
+
+.left_actions img {
+    height: 2vh;
+    width: 2vh;
+}
+
+.left_actions{
+ display: flex;
+ align-items: center;
+ justify-content: left;
+}
+
+.right_actions{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.twinbuttons{
+    width: 24.30vw;
+    height: 6vh;
+    border-radius: 1.89vh;
+    padding: 0.63vh;
+    gap:0.63vh;
+    background-blend-mode: luminosity;
+    background-color: initial;
+    background: var(--Windows-Glass, rgba(19, 17, 39, 0.512));
+    backdrop-filter: blur(40px);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+}
+

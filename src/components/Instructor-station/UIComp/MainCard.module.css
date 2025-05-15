@@ -1,0 +1,54 @@
+
+
+    .mainCard{
+        border-radius: 0.75rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        background-blend-mode: normal, saturation;
+        backdrop-filter: blur(7.5px);
+        background: linear-gradient(180deg,  rgba(255, 0, 0,0.18) 1%, rgba(66,69,108,1) 24%, rgba(74,70,110,1) 98%);
+        border: 0.5px solid #9f9d9d; 
+        }
+        .mainCard:hover{
+            background: linear-gradient(180deg,  rgba(255, 0, 0, 0.24) 1%, rgb(92, 95, 139) 24%, rgb(77, 68, 139) 98%);
+        }
+        .mainImg{
+            display: flex;
+            height: 15rem;
+            margin-top: 0.5rem;
+        }
+
+.textButton{
+display: flex;
+justify-content: center;
+width: 100%;
+}
+.iconButton{
+    width: clamp(1rem, 2.5vmin, 3rem);
+    height: clamp(1rem, 2.5vmin, 3rem);
+   
+    border-radius: 0.75rem;
+   
+    place-items:center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.iconButton:hover{
+    background-color: #545372;
+
+}
+.buttonContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2%;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.dropDownButton{
+    display: flex;
+    justify-content: center;
+    width: 100%;  
+}

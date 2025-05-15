@@ -1,0 +1,171 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.grid1 {
+    border-radius: 12px;
+    border: 1.4px solid rgba(255, 255, 255, 0.40);
+
+    background: var(--grey-30, rgba(128, 128, 128, 0.30));
+
+    background-blend-mode: luminosity;
+    height: 70vh;
+    margin: 1rem 3rem;
+}
+
+.headingText {
+    color: #FFF;
+    font-family: "SF Pro";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.5rem;
+    margin-top: 1rem; */
+    background-color: #c5deee2e;
+    border-radius: 1.57vh;
+    /* border: 1px solid red; */
+}
+
+.TrackCard {
+    display: grid;
+    grid-template-columns: 50% 20% 15% 10%;
+    column-gap: 2%;
+    /* background-color: #c5deee2e; */
+    /* border-radius: 20px; */
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid white;
+
+}
+
+.cardTitle {
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.5rem; */
+}
+
+.cardTitle>:nth-child(1) {
+    color: white;
+}
+
+.cardTitle>:nth-child(2) {
+    color: #d8d8d8;
+}
+
+
+
+.SwitchCard {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* gap: 0.73vw;
+    padding: 1.46vw; */
+    border-top: 0.15vh solid rgba(255, 255, 255, 0.328);
+    width: 100%;
+    height: 8.42vh;
+}
+
+.SwitchCardLeft,
+.SwitchCardRight {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: var(--font-size-3);
+    gap: 0.73vw;
+    padding: 0.5vw;
+}
+
+.SwitchCardLeft{
+    justify-content: left;
+    width: 80%;
+}
+
+.SwitchCardRight{
+    justify-content: right;
+    width: 20%;
+}
+
+
+.tabContainer {
+    background-color: #354258;
+}
+
+.tabContainer>:nth-child(1) {
+    justify-content: space-between;
+}
+
+.tabContainer>:nth-child(1)>* {
+    width: 100%;
+}
+
+.cardicon {
+    height: 2vh;
+    width: 2vh;
+    /* border: 1px solid red; */
+}
+
+.cardicon img {
+    height: 2vh;
+    width: 2vh;
+}
+
+
+.switchbutton {
+    width: 50px;
+    height: 20px;
+}
+
+.SwitchCardIcon {
+    width: 30px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SwitchCardTitles {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.SwitchCardTitle ,.SwitchCardSubTitle{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: var(--font-size-3);
+}
+
+.SwitchCardTitle{
+    font-size: var(--font-size-3);
+    color: white;
+}
+
+.SwitchCardSubTitle{
+    font-size: var(--font-size-4);
+    color: rgba(255, 255, 255, 0.402);
+}
+
+.SwitchCardActions {
+    height: 48px;
+    width: 124px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+    margin-left: 110px;
+}

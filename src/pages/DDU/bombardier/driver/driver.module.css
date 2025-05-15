@@ -1,0 +1,20 @@
+.container{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    grid-template-rows: repeat(13, 1fr);
+    height: 100%;
+    font-size: 0.7rem;
+}
+.container>*{
+    border: var(--border-primary);
+    display: flex;
+    align-items: center;
+    padding-left: 0.3rem;
+}
+
+.container>:nth-child(2){
+    grid-row: span 14;
+    font-size: 1.5rem;
+    justify-content: center;
+    padding-left: 0;
+}

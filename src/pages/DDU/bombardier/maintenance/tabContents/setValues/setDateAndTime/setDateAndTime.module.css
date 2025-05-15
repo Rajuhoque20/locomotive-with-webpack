@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    gap: 2vw;
+}
+
+.container>:nth-child(3){
+    display: flex;
+    align-items: center;
+}
+
+.container>:nth-child(3) button{
+    width: clamp(8vw,60%, 18vw);
+    height: 7vh;
+    color: var(--color-blue);
+    background-color: var(--color-black);
+    border: 1px solid var(--color-white);
+    font-size: var(--font-size-4);
+}
+.InputFields{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+   color: var(--color-blue);
+    font-size: var(--font-size-4);
+   justify-content: center;
+}
+.InputFields input{
+    margin-bottom: 1vh;
+    color: var(--color-blue);
+    border: var(--border-primary);
+    height: 7vh;
+    background-color: var(--color-black);
+    width: clamp(15vw,80%, 100%);
+    text-align: center;
+    font-size: var(--font-size-4);
+}
+.InputFields input::placeholder {
+    color: var(--color-blue);
+    font-size: var(--font-size-4);
+    text-align: center;
+  }

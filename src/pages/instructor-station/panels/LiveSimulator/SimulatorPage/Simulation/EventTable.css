@@ -1,0 +1,70 @@
+.table-container {
+    height: 100%;
+    overflow-y: scroll;
+    display: block;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+    border-radius: 1.89vh;  
+    border: 0.15vh solid  rgb(90, 92, 92);
+    font-family: "'SF Pro', sans-serif";
+
+}
+
+.table-container::-webkit-scrollbar {
+    display: none;      
+}
+.l-s-event-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.l-s-event-table-header {
+    z-index: 1;
+    border-bottom: 0.2vh solid rgb(184, 186, 186);
+    color: #f1f1f1;
+    background-blend-mode: luminosity;
+    background-color: initial;
+    backdrop-filter: blur(100px);
+    font-size: var(--font-size-3);
+}
+
+
+.l-s-event-table-th, .l-s-event-table-td {
+    width: 25%; 
+    height: 5.5vh;
+    text-align: left;
+    padding:2vh 2vh 2vh 2vh; 
+    white-space: nowrap;
+    border-bottom: 0.30vh solid rgba(255, 255, 255, 0.241);
+    color: #f1f1f1;
+}
+
+.l-s-event-table-th:last-child{
+    text-align: center;
+}
+
+.l-s-event-table-td:last-child{
+    text-align: center;
+}
+
+.l-s-event-table-td{
+    font-size: var(--font-size-4);
+ 
+}
+
+.l-s-event-table-th {
+    background-blend-mode: luminosity;
+    background-color: initial;
+}
+
+.l-s-event-table-tbody, .l-s-event-table-tr:hover {
+    backdrop-filter: blur(10vh);
+
+} 
+
+.l-s-event-table-trselected{
+    background: var(--Windows-Glass, rgba(6, 6, 37, 0.401));
+    background-blend-mode: luminosity;
+    backdrop-filter: blur(10vh);
+}

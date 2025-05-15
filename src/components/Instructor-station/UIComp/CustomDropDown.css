@@ -1,0 +1,138 @@
+.customDDiv {
+    backdrop-filter: blur(100px);
+    width: 100%;
+    height: 6vh;
+    border-radius: 1.5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5vh;
+}
+
+.dropdownimg img {
+    height: 2vh;
+    width: 2vh;
+}
+
+.searchHeader {
+    color: white;
+    font-size: 3vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    font-family: "SF Pro", sans-serif;
+    gap: 0.5vh;
+}
+
+.searchHeader img {
+    height: 2vh;
+    width: 2vh;
+}
+
+.searchDropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.search-container {
+    border: 1px solid red;
+    height: 5vh;
+}
+
+.trainesslist {
+    height: 9vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: left;
+    padding: 1vh
+}
+
+.trainesslist:hover {
+    background: var(--Windows-Glass, rgba(203, 203, 203, 0.297));
+    backdrop-filter: blur(100px);
+    border-radius: 1.2vh;
+    padding: 1vh;
+}
+
+.listsdiv {
+    min-height: 9vh;
+    max-height: 18vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    overflow-x: auto;
+}
+
+.listsdiv::-webkit-scrollbar {
+    display: none;
+}
+
+.traineeimg {
+
+    width: 7vh;
+    height: 7vh;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.traineeimg img {
+    height: 100%;
+    width: 100%;
+}
+
+.traineeInfo {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.traineeName {
+    /* border: 1px solid red; */
+    height: 50%;
+    color: white;
+    font-size: 2.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 0.5vh;
+}
+
+.traineestates {
+    /* border: 1px solid red; */
+    height: 50%;
+    color: rgba(255, 255, 255, 0.628);
+    padding-left: 0.5vh;
+    align-items: center;
+    justify-content: left;
+    font-size: 2vh;
+}
+
+.ant-popover .ant-popover-inner {
+    border: 0.1vh solid rgba(255, 255, 255, 0.383);
+    backdrop-filter: blur(100px);
+    height: 27vh;
+    width: 32vw;
+    background: none !important;
+}
+
+.searchpoint {
+    width: 30vw;
+    height: 5vh;
+    border: none;
+    outline: none;
+    background: var(--Windows-Glass, rgba(19, 10, 40, 0.471));
+    font-size: var(--font-size-3);
+    color: rgba(255, 255, 255, 0.563);
+    border-radius: 1.2vh;
+}

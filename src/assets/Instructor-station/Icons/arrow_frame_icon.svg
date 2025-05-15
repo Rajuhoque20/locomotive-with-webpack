@@ -1,0 +1,8 @@
+<svg width="34" height="10" viewBox="0 0 34 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="2.5" cy="5" r="2.5" fill="white" fill-opacity="0.5" style="mix-blend-mode:lighten"/>
+<circle cx="2.5" cy="5" r="2.5" fill="#5E5E5E" fill-opacity="0.5" style="mix-blend-mode:color-dodge"/>
+<rect y="4" width="30" height="2" rx="1" fill="white" fill-opacity="0.5" style="mix-blend-mode:lighten"/>
+<rect y="4" width="30" height="2" rx="1" fill="#5E5E5E" fill-opacity="0.5" style="mix-blend-mode:color-dodge"/>
+<rect x="29.2427" y="0.757812" width="6" height="6" rx="1" transform="rotate(45 29.2427 0.757812)" fill="white" fill-opacity="0.5" style="mix-blend-mode:lighten"/>
+<rect x="29.2427" y="0.757812" width="6" height="6" rx="1" transform="rotate(45 29.2427 0.757812)" fill="#5E5E5E" fill-opacity="0" style="mix-blend-mode:color-dodge"/>
+</svg>

@@ -1,0 +1,29 @@
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container>:nth-child(1){
+    margin: 0.3rem auto;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.dataInfo{
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    grid-template-rows: repeat(9, 1fr);
+    flex: 1;
+    font-size: 0.6rem;
+}
+.dataInfo>*{
+    border-top: var(--border-primary);
+    border-right: var(--border-primary);
+    display: flex;
+    align-items: center;
+}
+.dataInfo>:nth-child(3n){
+    border-right: 0;
+}
+.dataInfo>*{
+    padding-left: 1vw;
+}

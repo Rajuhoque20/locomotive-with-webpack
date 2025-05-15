@@ -1,0 +1,32 @@
+.bombardierMain{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    /* overflow-y: auto; */
+    background-color: var(--color-black);
+    width: 800px;
+    height: 600px;
+    aspect-ratio: 800/600;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.dateTime{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: auto;
+    font-size: 1.2rem;
+}
+.subSystems{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+*{
+    box-sizing: border-box;
+}
+

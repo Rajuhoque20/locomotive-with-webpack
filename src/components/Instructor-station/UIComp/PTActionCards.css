@@ -1,0 +1,79 @@
+.trainer-card {
+    border-radius: 1vw;
+    padding: 2vh 1vw;
+    box-shadow: 0 0.5vh 0.75vw rgba(0, 0, 0, 0.1);
+    max-width: 25vw;
+    color: white;
+    backdrop-filter: blur(10vh);
+    border: 0.2vh solid rgba(255, 255, 255, 0.263);
+  }
+  
+  .trainer-card-title {
+    font-size: 2.5vh;
+    font-weight: 500;
+    margin-bottom: 0.5vh;
+  }
+  
+  .trainer-card-status-container {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    margin-bottom: 1.5vh;
+  }
+  
+  .trainer-card-label {
+    color: rgba(255, 255, 255, 0.378);
+    margin-bottom: 0.5vh;
+    font-size: 2vh;
+    font-weight: 500;
+  }
+  
+  .trainer-card-value {
+    color: rgb(229, 231, 235);
+    background: var(--Windows-Glass, rgba(191, 190, 190, 0.603));
+    background-blend-mode: luminosity;
+    backdrop-filter: blur(40px);
+    border-radius: 0.75vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5vh 1vh 0.5vh 1vh;
+    font-size: 1.9vh;
+  }
+  
+  .trainer-card-trainee {
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .trainer-card-trainee-value {
+    color: rgb(209, 213, 219);
+    font-size: 2vh;
+  }
+  
+  .trainer-card-button-container {
+    border-top: 0.4vh solid rgba(255, 255, 255, 0.3);
+    padding-top: 2vh;
+    margin-top: 1vh;
+  }
+  
+  .trainer-card-button {
+    width: 100%;
+    padding: 1.3vh 0;
+    border-radius: 0.45vw;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border: none;
+    color: white;
+    background: var(--Windows-Glass, rgba(128, 128, 128, 0.603));
+    background-blend-mode: luminosity;
+    backdrop-filter: blur(40px);
+    font-size: 2vh;
+    font-weight: 500;
+  }
+  
+  .trainer-card-button:hover {
+    background-color: rgba(255, 255, 255, 0.37);
+  }

@@ -1,0 +1,151 @@
+/* DateRangePicker.css */
+.date-picker-container {
+    width: 25vw;
+    background-color: #475569;
+    color: white;
+    border-radius: 1.2vh;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, sans-serif;
+    padding: 1vh;
+  }
+  
+  .date-picker-header {
+    padding: 1vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .date-label {
+    font-weight: 500;
+    font-size: 2vh;
+  }
+  
+  .reset-button {
+    color: #ffffff45;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s;
+    font-size: 2vh;
+    border-bottom: 0.1vh solid #ffffff45;
+  }
+  
+  .reset-button:hover {
+    color: #bfdbfe;
+  }
+  
+  .month-navigation {
+    padding: 1vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-button {
+    width: 3.5vh;
+    height: 3.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #64748b;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .nav-button:hover {
+    background-color: #94a3b8;
+  }
+  
+  .current-month {
+    font-size: 2.2vh;
+    font-weight: 500;
+  }
+  
+  .calendar-container {
+    padding: 1.5vh;
+  }
+  
+  .weekday-header {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-bottom: 1vh;
+  }
+  
+  .weekday {
+    text-align: center;
+    font-size: 1.5vh;
+    padding: 0.5vh 0;
+    color: #cbd5e1;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1vh;
+  }
+  
+  .day-cell {
+    text-align: center;
+  }
+  
+  .day-button {
+    width: 3vh;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 1.6vh;
+  }
+  
+  .day-button:hover {
+    background-color: #64748b;
+  }
+  
+  .day-button.selected {
+    background-color: #60a5fa;
+    color: white;
+  }
+  
+  .day-button.in-range {
+    background-color: rgba(147, 197, 253, 0.3);
+  }
+  
+  .date-selection-footer {
+    padding: 1.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .date-display {
+    background-color: #64748b;
+    padding: 1vh 1.5vw;
+    border-radius: 0.8vh;
+    font-size: 1.6vh;
+  }
+  
+  .apply-button {
+    width: 100%;
+    padding: 1.5vh 0;
+    background-color: #94a3b8;
+    border: none;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 1.8vh;
+  }
+  
+  .apply-button:hover {
+    background-color: #64748b;
+  }

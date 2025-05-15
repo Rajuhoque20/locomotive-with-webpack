@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+.container>*{
+    border-top: var(--border-primary);
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+}
+.container>:nth-child(1){
+    grid-column: span 2;
+    text-align: center;
+    justify-content: center;
+    padding-left: 0;
+}
+.container>:nth-child(2n)
+{
+    border-right: var(--border-primary);
+}

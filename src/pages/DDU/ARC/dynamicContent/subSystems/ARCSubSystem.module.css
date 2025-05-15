@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container>:nth-child(1){
+    margin: 1vh auto;
+    font-weight: 600;
+}
+.subSystems{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    flex: 1;
+}
+.subSystems>*{
+    border:var(--border-primary)
+}

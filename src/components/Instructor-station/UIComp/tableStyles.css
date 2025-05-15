@@ -1,0 +1,41 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+.dynamic-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dynamic-table th,
+.dynamic-table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.dynamic-table th {
+  background: #8080804D;
+  position: sticky;
+  top: 0;
+  border-bottom: 3px solid #c3c1c14d; 
+  border-top: 1px solid #aba2a2;
+  color: #ffffff;
+}
+
+.dynamic-table tr:hover {
+  background: #8080804D;
+}
+
+.dynamic-table tr {
+  border-bottom: 1px solid #c3c1c14d; 
+  color: #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .dynamic-table th,
+  .dynamic-table td {
+      padding: 12px;
+  }
+}

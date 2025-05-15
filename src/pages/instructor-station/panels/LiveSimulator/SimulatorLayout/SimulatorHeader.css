@@ -1,0 +1,101 @@
+/* .header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   width: 100%;
+}
+.header-section1{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    font-size: var(--font-size-4);
+}
+.header-section1 img{
+    width: 3vh;
+    height: 3vh;
+}
+
+.simulator-home{
+    border-radius: 5px 20px 0px 0px;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    width: 18vw;
+    padding-left: 1.5vw;
+    font-weight: 600;
+    background: var(--grey-30, #8080804D), var(--grey-18, #8080802E);
+    background-blend-mode: darken, luminosity;
+    border: 1px solid color-mix(in lab, #ffffff 40%, #767373 60%); 
+    color: var(--white-50, rgba(255, 255, 255, 0.50));
+}
+
+.untitled-exercise{
+    background: var(--grey-30, #8080804D), var(--grey-18, #8080802E);
+    background-blend-mode: darken, luminosity;
+    border-radius: 20px 20px 0px 0px;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: var(--white-50, rgba(255, 255, 255, 0.50));
+    cursor: pointer;
+    border: 1px solid color-mix(in lab, #ffffff 40%, #767373 60%); 
+}
+.new-simulation{
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: luminosity, darken; 
+    backdrop-filter: blur(100px);
+}
+.border-zero{
+    border: 0;
+}
+.header-section2{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: var(--white-50, rgba(255, 255, 255, 0.50));
+    padding-right: 1.5rem;
+}
+.header-section2>*{
+    cursor: pointer;
+}
+
+.active-tab{
+    background: linear-gradient(90deg, #0A84FF 0%, #00D9FF 100%);
+    color: #000;
+    font-weight: 600;
+} */
+/* 
+@media(min-width:1700px)
+{
+    .simulator-home{
+        gap: 1vw;
+        width: 19.9vw;
+        padding-left: 2vw;
+        font-size: 2.5vmin;
+    }
+    .simulator-home img{
+        width: 3rem;
+        height: 3rem;
+    }
+    .untitled-exercise{
+        padding: 1vh 2vw;
+        gap: 3vw;
+        font-size: 2.5vmin;
+    }
+    .untitled-exercise img{
+        width: 3rem;
+        height: 3rem;
+    }
+    .untitled-exercise>:nth-child(3)
+    {
+       font-size: 3vmin;
+    }
+    .header-section2{
+        gap: 2vw;
+        padding-right: 2vw;
+    }
+    .header-section2>*{
+        font-size: 2.5vmin;
+    }
+} */

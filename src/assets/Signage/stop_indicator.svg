@@ -1,0 +1,18 @@
+<svg width="1404" height="2402" viewBox="0 0 1404 2402" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_69_2969" fill="white">
+<path d="M664.5 402H739.5V2402H664.5V402Z"/>
+</mask>
+<path d="M664.5 402H739.5V2402H664.5V402Z" fill="white"/>
+<path d="M736.3 402V2402H742.7V402H736.3ZM667.7 2402V402H661.3V2402H667.7Z" fill="black" mask="url(#path-1-inside-1_69_2969)"/>
+<rect x="665" y="668.81" width="74" height="299" fill="black" stroke="black"/>
+<rect x="665" y="1330.93" width="74" height="299" fill="black" stroke="black"/>
+<rect x="665" y="1993.05" width="74" height="299" fill="black" stroke="black"/>
+<rect x="1" y="1.12207" width="1402" height="402" stroke="black" stroke-width="2"/>
+<rect x="2" y="2.12207" width="235" height="400" fill="#FF0000"/>
+<rect x="467" y="2.12207" width="470" height="400" fill="#FF0000"/>
+<rect x="1167" y="2.12207" width="235" height="400" fill="#FF0000"/>
+<rect x="937" y="2.12207" width="230" height="400" fill="white"/>
+<ellipse cx="1052" cy="202.124" rx="68.0685" ry="65.7812" fill="#FF0000"/>
+<rect x="237" y="2.12207" width="230" height="400" fill="white"/>
+<ellipse cx="352" cy="202.124" rx="68.0685" ry="65.7812" fill="#FF0000"/>
+</svg>

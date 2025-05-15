@@ -1,0 +1,16 @@
+<svg width="1400" height="2400" viewBox="0 0 1400 2400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_70_3665" fill="white">
+<path d="M662.5 400H737.5V2400H662.5V400Z"/>
+</mask>
+<path d="M662.5 400H737.5V2400H662.5V400Z" fill="white"/>
+<path d="M734.3 400V2400H740.7V400H734.3ZM665.7 2400V400H659.3V2400H665.7Z" fill="black" mask="url(#path-1-inside-1_70_3665)"/>
+<rect x="663" y="666.81" width="74" height="299" fill="black" stroke="black"/>
+<rect x="663" y="1328.93" width="74" height="299" fill="black" stroke="black"/>
+<rect x="663" y="1991.05" width="74" height="299" fill="black" stroke="black"/>
+<path d="M1203.1 397.999H4.57728L186.636 201.358L187.894 200L186.636 198.641L4.57727 2H1203.1L1397.2 200L1203.1 397.999Z" fill="#FFFF02" stroke="black" stroke-width="4"/>
+
+<path d="M700 200L900 400H500L700 200Z" fill="black"/>
+<path d="M700 200L500 0H900L700 200Z" fill="black"/>
+<circle cx="368.82" cy="200" r="63.9438" fill="white" stroke="black" stroke-width="4"/>
+<circle cx="1021.18" cy="200" r="63.9438" fill="white" stroke="black" stroke-width="4"/>
+</svg>

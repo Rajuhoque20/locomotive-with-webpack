@@ -1,0 +1,25 @@
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--color-dark-blue);
+}
+.container>*{
+    font-size: 0.6rem;
+    color: var(--color-white);
+    border-top: var(--border-primary);
+    border-right: var(--border-primary);
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+}
+.title{
+    grid-column: span 3;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color:var(--color-yellow);
+}
+.column{
+    color:var(--color-yellow);
+    font-size: 0.7rem;
+}

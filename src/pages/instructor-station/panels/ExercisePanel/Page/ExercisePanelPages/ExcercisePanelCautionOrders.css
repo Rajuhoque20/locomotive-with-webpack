@@ -1,0 +1,104 @@
+.epco_container {
+    width: 100%;
+    height: 84vh;
+    padding: 1%;
+}
+
+.epco_inner_container {
+    border: 0.1vh solid rgba(255, 255, 255, 0.333);
+    height: 100%;
+    width: 100%;
+    border-radius: 1.2vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.epco_table_header {
+    height: 10%;
+    backdrop-filter: blur(10vh);
+    background: var(--Windows-Glass, rgba(9, 5, 66, 0.155));
+    border-bottom: 0.4vh solid rgba(255, 255, 255, 0.296);
+}
+
+.epco_table_header_row {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.epco_table_header_cell {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+    font-weight: 640;
+    font-size: 2vh;
+    padding-left: 1%;
+}
+
+.epco_table_data {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7%;
+    backdrop-filter: blur(10vh);
+    background: var(--Windows-Glass, rgba(9, 5, 66, 0.06));
+    overflow-x: auto;
+}
+
+.epco_table_data::-webkit-scrollbar {
+    display: none;
+}
+
+.epco_addCautionRow {
+    height: 12%;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    background: var(--Windows-Glass, rgba(8, 4, 37, 0.426));
+    backdrop-filter: blur(10vh);
+    border-radius: 0 0 1.2vh 1.2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.epco_table_data_row {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    background: var(--Windows-Glass, rgba(8, 4, 37, 0.237));
+}
+
+.epco_table_data_row_cell {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: white;
+    font-weight: 640;
+    font-size: 2vh;
+    padding-left: 1%;
+}
+
+.epco_table_data_input {
+    height: 70%;
+    width: 80%;
+    border-radius: 1.2vh;
+    background: var(--Windows-Glass, rgba(8, 4, 37, 0.34));
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.271);
+    font-size: 2vh;
+}
+
+.epco_addCautionRow_button{
+  width: 5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

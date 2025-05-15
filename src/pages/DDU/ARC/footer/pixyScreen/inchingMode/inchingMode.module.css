@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+    color: var(--color-yellow);
+    padding: 0.3rem 0.5rem;
+    justify-content: center;
+}
+.container>*{
+    display: flex;
+}
+.container>:nth-child(1)>:nth-child(1) small{
+    font-size: 1.4vh;
+}
+.container>*>:nth-child(1){
+    width: 60%;
+}
+.container>*>:nth-child(2){
+    width: 40%;
+}

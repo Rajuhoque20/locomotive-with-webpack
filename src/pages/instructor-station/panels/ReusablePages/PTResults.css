@@ -1,0 +1,42 @@
+.ptr-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ptr-content{
+    height: 100%;
+    width:100%;
+    padding: 1vh;
+}
+
+.ptr-content-view{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+}
+
+.ptr-footer{
+    height: 10%;
+    backdrop-filter: blur(10vh);
+    background-color: rgba(82, 81, 95, 0.19);
+    border-top: 0.2vh solid rgba(255, 255, 255, 0.407);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 2vh;
+}
+
+.pcv-section1{
+  height: 100%;
+  width: 75%;
+}
+
+.pcv-section2{
+    height: 100%;
+    width: 25%;
+
+}

@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: var(--color-blue);
+    /* gap: 3vw; */
+    column-gap: 1rem;
+    row-gap: 0.5rem;
+}
+.diamVal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+  
+}
+.diamVal>:nth-child(2){
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: var(--border-primary);
+}
+.diamVal>:nth-child(2)>:nth-child(2){
+    flex: 1;
+    text-align: center;
+}
+.container>:nth-last-child(1){
+    grid-column: span 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.enterButton{
+    width: 10rem;
+    height: 2.5rem;
+    border: var(--border-primary);
+    background-color: var(--color-black);
+    color: var(--color-blue);
+    font-size: 0.8rem;
+}

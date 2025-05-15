@@ -1,0 +1,133 @@
+.livesimtrain_scenario_div{
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3.15vh;
+    padding: 2vh;
+}
+
+.livesimtrain_header_actions{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 2%;
+}
+
+.livesimtrain_table{
+   height: 70vh;
+   width: 100%;
+   border-collapse: collapse;
+   table-layout: fixed;
+}
+
+.livesim_train_table_container{
+    height: 60vh; 
+    width: 100%;
+    border-radius: 1.2vh;
+    border: 0.4vh solid rgba(255, 255, 255, 0.171);
+    overflow: hidden;
+    position: relative;
+}
+
+.livesimtrain_table{
+    width: '100%';
+    border-collapse: collapse;
+}
+
+.livesimtrain_table_header{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.livesimtrain_table_header_row{
+   border-bottom: 0.4vh solid rgba(255, 255, 255, 0.208);
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+} 
+
+.livesimtrain_table_header_cell{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.5vh;
+    width: 16.66%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    backdrop-filter: blur(10vh);
+}
+
+.livesimtrain_table_data_row{
+    height: 5vh;
+    border-bottom: 0.3vh solid rgba(255, 255, 255, 0.208);
+    background: var(--Windows-Glass,rgba(5, 11, 45, 0.301));
+    display: flex;
+    flex-direction: row;
+}
+
+.livesimtrain_table_data_row:hover{
+    background: var(--Windows-Glass,rgba(5, 11, 45, 0.512));
+}
+
+.livesimtrain_table_data_cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16.66%;
+    height: 100%;
+    color: white;
+    font-size: 1.9vh;
+    font-weight: 500;
+}
+
+.livesimtrain_table_tbody{
+    display: block;
+    max-height: 60vh; /* or any height you want */
+    overflow-x: auto;
+    width: 100%;
+}
+
+.livesimtrain_table_tbody::-webkit-scrollbar {
+    display: none;
+  }
+
+  .livesimtrain_train_popover{
+    height: 10%;
+    width: 10%;
+    border: 0.2vh solid rgba(255, 255, 255, 0.202);
+    border-radius: 1.2vh;
+    background: var(--Windows-Glass,rgba(15, 11, 53, 0.259));
+    background-color: rgba(162, 162, 162, 0.331);
+    backdrop-filter: blur(10vh);
+    color: rgba(255, 255, 255, 0.412);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    font-weight: 500;
+    z-index: 10000;
+    cursor: pointer;
+  }
+
+  .livesimtrain_train_popover::before {
+    content: ''; /* Empty content */
+    position: absolute; /* Position relative to the parent */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(162, 162, 162, 0.687);
+    backdrop-filter: blur(10vh);
+    background: var(--Windows-Glass,rgba(3, 4, 28, 0.738));
+    border-radius: inherit; /* Match the parent's border-radius */
+    z-index: -1; /* Ensure it's behind the content */
+  
+  }

@@ -1,0 +1,9 @@
+.screen-tab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    cursor: pointer;
+    width: min-content;
+    padding-inline: 0.5rem;
+}

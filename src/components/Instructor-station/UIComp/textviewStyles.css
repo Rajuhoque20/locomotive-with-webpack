@@ -1,0 +1,32 @@
+.textdiv {
+    width: 7.6vw;
+    height: 6.95vh; 
+    padding: 3.15vh;
+    border-radius: 1.15vh;
+    background: #140f28b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:
+        1px 1.5px 4px 0px #0000001A inset,
+        1px 1.5px 4px 0px #00000014 inset,
+        0px -0.5px 1px 0px #FFFFFF40 inset,
+        0px -0.5px 1px 0px #FFFFFF4D inset;
+    overflow: hidden;
+}
+
+.textview {
+    width: 4.23vw;
+    height: 3.47vh; 
+    font-family: 'SF Pro', sans-serif;
+    font-size: var(--font-size-3);
+    font-weight: 510;
+    line-height: 3.47vh;
+    color: rgb(169, 172, 174);
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}

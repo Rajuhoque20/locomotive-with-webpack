@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+    padding: 1.5vh 1vw;
+    gap: 1vh;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat((3, 1fr));
+}
+.container>*{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.container>:nth-child(1),.container>:nth-child(4),.container>:nth-child(5){
+    color: var(--color-blue);
+    background-color: var(--color-sky-blue);
+}
+.container>:nth-child(2),.container>:nth-child(3),.container>:nth-child(6){
+    color: var(--color-green);
+    background-color: var(--color-mint-green);
+}

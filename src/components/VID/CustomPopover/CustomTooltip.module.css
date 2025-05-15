@@ -1,0 +1,21 @@
+ .customTooltip {
+    
+    padding: 1vh;
+    background-color: rgba(0, 0, 0,0.6); 
+    border-radius: 0.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+.customTooltip.active{
+    border: 1px solid rgba(0, 255, 68, 1) !important; 
+}
+  
+.customTooltip.inactive{
+    border: 1px solid rgba(245, 0, 0, 1) !important; 
+}
+.customTooltip img{
+    width: 2vh;
+    height: 2vh;
+}
+  

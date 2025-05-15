@@ -1,0 +1,4 @@
+.container{
+    border: var( --border-primary);
+    margin: 1vh;
+}

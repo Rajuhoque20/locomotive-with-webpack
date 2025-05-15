@@ -1,0 +1,283 @@
+.live-sim-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  width: 100%;
+  padding: 1.7vh;
+  height: 83vh;
+}
+
+.live-sim-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  height: 71vh;
+  width: 100%;
+}
+
+.live-sim-left-cards {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.live-sim-left-cards-container {
+  /* background-color: #c5deee2e; */
+  border-radius: 1.57vh;
+  height: 27vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9vh;
+  overflow: hidden;
+  border: 0.1vh solid #c5deee2e;
+  backdrop-filter: blur(100px);
+}
+
+.live-sim-right-cards {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.live-sim-rightTop-cards-container {
+  height: 27vh;
+  width: 100%;
+  background-color: #c5deee2e;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8vh;
+  border-radius: 1.57vh;
+  border: 0.1vh solid #c5deee2e;
+  overflow: hidden;
+}
+
+.live-sim-rightBottom-cards-container {
+  height: 27vh;
+  width: 100%;
+  border-radius: 1.57vh;
+  /* border: 0.1vh solid #c5deee2e; */
+  /* background-color: #c5deee2e; */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+
+.live-sim-footer {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.live-sim-right-cards_conatiner {
+  height: 97%;
+  border-radius: 1.2vh;
+  border: 0.1vh solid rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(100px);
+}
+
+.cardForm {
+  height: 8.42vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.278);
+}
+
+.cardFormleft,
+.cardFormright {
+  padding: 0.73vw;
+  gap: 0.73vw;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cardFormleft {
+  padding: 0.1vh;
+  gap: 0.1vh;
+  justify-content: left;
+}
+
+.cardFormright {
+  justify-content: right;
+}
+
+.cardForm_icon {
+  height: 2vh;
+  width: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardForm_icon img {
+  height: 2vh;
+  width: 2vw;
+}
+
+.cardForm_titles {
+  width: 36.60vw;
+  height: 7.58vh;
+  /* border: 1px solid red; */
+  font-family: 'SF Pro', sans-serif;
+  font-size: var(--font-size-4);
+  font-weight: 590;
+  line-height: 3.79vh;
+  text-align: left;
+  color: rgb(255, 255, 255);
+
+}
+
+.cardFormTitle {
+  width: 11.27vw;
+  height: 3.79vh;
+}
+
+.cardFormSubTitle {
+  font-weight: 400;
+  color: rgba(249, 249, 249, 0.485);
+}
+
+.cardSwitch {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.cardFormTitle2 {
+  font-family: 'SF Pro', sans-serif;
+  font-size: var(--font-size-4);
+  font-weight: 590;
+  line-height: 3.79vh;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+
+.custom-switch {
+  width: 3vw;
+  /* Adjust as per your design */
+  height: 3.5vh;
+  background: var(--Windows-Glass, rgba(17, 13, 43, 0.418));
+  border-radius: 2vh;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
+
+.custom-switch.checked {
+  background-color: #1890ff;
+}
+
+.switch-handle {
+  width: calc(3.3vh - 0.4vh);
+  /* Slightly smaller than the height */
+  height: calc(3.3vh - 0.4vh);
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.3vh;
+  left: 0.3vh;
+  transition: 1s ease;
+}
+
+.custom-switch.checked .switch-handle {
+  left: unset;
+  right: 0.3vh;
+}
+
+.liveKavachAction{
+  height: 10%;
+  width: 100%;
+  position: absolute;
+  bottom: 6%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 1.2vh;
+  backdrop-filter: blur(10vh);
+  border: 0.1vh solid rgba(255, 255, 255, 0.322);
+  padding-left: 0.5%;
+  padding-right: 1%;
+  gap: 1%;
+}
+
+.lkaIcon{
+  height: 100%;
+  width: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lkaIcon img {
+  height: 80%;
+  width: 80%;
+}
+
+.lkamidaction{
+  width: 67%;
+  height: 100%;
+  color: white;
+  font-size: 1.7vh;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.kavachTriggeraction{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.triggerView{
+  height: 10%;
+  width: 20%;
+  position: absolute;
+  bottom: -5%;
+  left: 40%;
+  border-radius: 3vh;
+  background: var(--Windows-Glass,rgba(17, 6, 36, 0.079));
+  box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.571);
+  border: 0.3vh solid rgba(255, 255, 255, 0.257);
+  display: flex;
+  flex-direction: row;
+}
+
+.triggerViewinfo{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* height: 65%;
+width: 30%;
+border-radius: 1.2vh;
+background: var(--Windows-Glass,rgba(17, 6, 36, 0.519));
+color: rgba(255, 255, 255, 0.429);
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 500;
+font-size: 2.5vh;
+box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.4); */

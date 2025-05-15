@@ -1,0 +1,50 @@
+.headingText{
+    color: #FFF;
+font-family: "SF Pro";
+font-size: 29px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.eventText{
+    color: var(--White, #FFF);
+    font-family: "Uber Move Text";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+.eventTextContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.ControlCard{
+    display: grid;
+    grid-template-columns: 50%  25% 20%;
+    column-gap: 2%;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-bottom:1px solid white ;
+
+}
+.cardTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.cardTitle>:nth-child(1){
+    color: white;
+}
+.cardTitle>:nth-child(2){
+    color: #d8d8d8;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    background-color: #c5deee2e;
+    border-radius: 10px;
+
+}

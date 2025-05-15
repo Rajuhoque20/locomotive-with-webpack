@@ -1,0 +1,76 @@
+.Tab-Container {
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+    /* gap: 1.46vw; */
+}
+
+.Tab {
+    display: flex;
+    height: 5.68vh;
+    padding: 0 1.57vh;
+    justify-content: center;
+    align-items: center;
+    gap: 1.57vh;
+    border-radius: 15.79vh;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.Tab img {
+    width: 2.5vh;
+    height: 2.5vh;
+}
+
+.activeTab {
+    display: flex;
+    height: 5.68vh;
+    padding: 0 1.57vh;
+    justify-content: center;
+    align-items: center;
+    gap: 1.57vh;
+    border-radius: 1.5vh;
+    border: 0.1vh solid rgba(255, 255, 255, 0.40);
+    /* Combined CSS with blending and gradients */
+    background: radial-gradient(100% 100% at 50% 100%, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0) 68.75%),
+        radial-gradient(101.06% 100% at 50% 100%, rgba(94, 94, 94, 0.32) 0%, rgba(94, 94, 94, 0) 73.85%);
+    background-blend-mode: lighten, color-dodge;
+
+    box-shadow: 0 0.1vh 0.4vh 0 rgba(0, 0, 0, 0.10);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* backdrop-filter: blur(100px); */
+}
+
+.activeTab img {
+    width: 2.5vh;
+    height: 2.5vh;
+}
+
+.Tab-label {
+    color: var(--white-50, rgba(255, 255, 255, 0.50));
+    text-align: center;
+    font-family: 'SF Pro', sans-serif;
+    font-size: var(--font-size-3);
+    font-style: normal;
+    font-weight: 590;
+    line-height: 3.15vh;
+    /* 133.333% */
+}
+
+.Active-Tab-label {
+
+    color: var(--Text-Primary, rgba(255, 255, 255, 0.96));
+    text-align: center;
+    font-family: "SF Pro";
+    font-size: var(--font-size-3);
+    font-style: normal;
+    font-weight: 590;
+    line-height: 3.15vh;
+    /* 133.333% */
+}
+
+.Tab-Icon {
+    width: 2vh;
+    height: 2vh;
+}

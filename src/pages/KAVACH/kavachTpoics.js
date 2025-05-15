@@ -1,0 +1,5 @@
+export const KAVACH_TOPICS = {
+    KAVACHDATA:'BE/FE/KAVACH',
+    SKAVACHDATA:'BE/FE/SKAVACH'
+}
+   

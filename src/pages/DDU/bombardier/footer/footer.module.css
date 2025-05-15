@@ -1,0 +1,81 @@
+
+.bombarFooter{
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    background-color: var(--color-black);
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    border: var( --border-primary);
+    flex: 1;
+    height:100%;
+}
+.section1>*{
+    flex:  1;
+}
+.ackButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 12px 2px rgba(214, 214, 214, 1);
+   background-color:  rgba(102, 102, 102, 1);
+   max-width: 3rem;
+   padding: 0 1rem;
+   height: 100%;
+}
+.ackButton>*{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--color-white);
+}
+.brakeDiv{
+    display: flex;
+    gap: 1vw;
+    /* align-items: center; */
+    flex: 1;
+    border-right:var( --border-primary);
+    padding: 1vh;
+}
+.eachBrake{
+    display: flex;
+    align-items: center;
+    justify-content:baseline;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+.eachBrake label{
+    text-align: center;
+}
+.eachBrake img{
+    height: 6vh;
+}
+.textDiv{
+    display: flex;
+    align-items: center;
+    color: rgba(255, 193, 7, 1);
+    padding: 1vh;
+    flex: 1;
+}
+.rightContent1{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-blue);
+    gap: 1vh;
+    font-size: var(--font-size-4);
+    flex: 1;
+    font-size: 0.8rem;
+}
+.rightContent1>:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.rightContent1>:nth-child(2)>*{
+    display: flex;
+    flex-direction: column;
+}

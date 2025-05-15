@@ -1,0 +1,27 @@
+.banking_control_div{
+    height: 83vh;
+    width: 100%;
+    padding: 2vh;
+    /* background-color: black; */
+}
+
+.b_k_innerdiv{
+    border: 2vh solid rgb(21, 20, 20);
+    width: 100%;
+    height: 100%;
+    border-radius: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap:6vh;
+    padding: 4vh;
+    background: var(--Windows-Glass, rgb(0, 0, 0));
+}
+
+.throttle_div{
+    height: 40vh;
+    width: 14vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

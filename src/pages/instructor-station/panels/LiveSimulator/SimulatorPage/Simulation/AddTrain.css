@@ -1,0 +1,74 @@
+.addTrain_container{
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+}
+
+.addTrain_inner_container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    position: relative;
+}
+
+.addTrainActionView{
+    width: 100%;
+    height: 10%;
+    border-radius: 1.2vh;
+    background:  var(--Windows-Glass, rgba(20, 10, 68, 0.342));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    color: white;
+    font-weight: 500;
+    font-size: 2vh;
+}
+
+.addTrainleft{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 100%;
+    padding-left: 2%;
+ }
+ 
+ .addTrainright{
+     width: 70%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content:right;
+     padding-right: 2%;
+
+ }
+
+ .addTrainInfoView{
+    height: 65%;
+    width: 30%;
+    border-radius: 1.2vh;
+    background: var(--Windows-Glass,rgba(17, 6, 36, 0.519));
+    color: rgba(255, 255, 255, 0.429);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 2.5vh;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.4);
+ }
+
+ .addTrainFooterAction{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding-left: 2%;
+    position: absolute;
+    bottom: 0%;
+    gap: 1%;
+ }

@@ -1,0 +1,109 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 4fr;
+}
+.container>*{
+    border: var(--border-primary);
+}
+.footerLoco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    gap: 0.5vh;
+    font-size: 0.8rem;
+} 
+.footerLoco>:nth-child(1){
+    color: var(--color-grey);
+}
+.footerLoco>:nth-child(3){
+    color: var(--color-white);
+}
+.footerLoco>:nth-child(2){
+   height: 5.5vh;
+}
+.footerContent{
+    display: grid;
+    grid-template-columns: 0.5fr 6fr 3fr;
+    padding: 1vh;
+    color: var(--color-yellow);
+    font-size: 0.8rem;
+    gap: 1vw;
+}
+
+.footerContent>*:nth-child(2){
+   display: flex;
+   flex-direction: column;
+}
+.footerContent>*:nth-child(3){
+    display: flex;
+    justify-content: flex-end;
+ }
+ .footerContent>*:nth-child(1){
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2.5vh;
+ }
+ .footerContent>*:nth-child(1) img{
+    width: 3vh;
+    height: 3vh;
+ }
+ .screen3Content{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+    color: var(--color-yellow);
+    padding: 1vh;
+    justify-content: center;
+ }
+ .screen3Content>:nth-last-child(1){
+    font-weight: 600;
+ }
+ .notAvailable{
+    font-size: 0.7rem;
+    color: var(--color-yellow);
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+ }
+ .softwareVersion{
+    font-size: 0.7rem;
+    color: var(--color-yellow);
+    display: flex;
+    padding: 1vw;
+ }
+ .trainConfig{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+    color: var(--color-yellow);
+    padding: 1vh 1vw;
+ }
+ .trainConfig>:nth-child(2){
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+ }
+  .trainConfig>:nth-child(2)>*{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+ }
+ .energyCounter{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+    color: var(--color-yellow);
+    padding: 1vh 1vw;
+    gap: 1vh;
+ }
+.energyEncounterInfo{
+    display: flex;
+    align-items: center;
+}
+.energyEncounterInfo>:nth-child(1){
+    width: 30%;
+}
+ 

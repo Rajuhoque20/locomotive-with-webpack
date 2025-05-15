@@ -1,0 +1,36 @@
+.deletefiles-div{ 
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 84vh;
+    /* padding: 0px 0.56px 97.69px 0px; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.deletefiles-header{
+    width: 100%;
+    height:14.53vh;
+}
+
+
+.deletefiles-cards {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    cursor: pointer;
+    overflow-y: auto;
+    cursor: pointer; 
+    align-content: flex-start; 
+    padding: 1vh; 
+    gap: 2vh;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+
+
+.deletefiles-cards::-webkit-scrollbar {
+    display: none;
+}

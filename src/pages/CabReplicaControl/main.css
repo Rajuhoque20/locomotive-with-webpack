@@ -1,0 +1,39 @@
+.cab-replica-control-container {
+  background: #1e2021;
+  padding: 1vh 1vw 2vh 1vw;
+  overflow-y: hidden;
+  height: 98vh;
+}
+.cab-replica-control-container svg {
+  width: 95%;
+  height: 95%;
+}
+.cab-replica-control-container img {
+  width: inherit;
+}
+.cab-replica-control-container > * {
+  box-sizing: border-box;
+}
+.cab-replica-control-container span {
+  color: #fff;
+  font-size: 0.8vw;
+}
+.cab-control-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  width: auto;
+  overflow-y: hidden;
+  height: auto;
+  max-height: 100%;
+  aspect-ratio: 1950/1080;
+  border-radius: 0.8rem;
+  margin: 0 auto;
+}
+
+.cab-control-controlpanel {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 100%;
+  overflow-y: auto;
+}
+

@@ -1,0 +1,16 @@
+<svg width="601" height="3274" viewBox="0 0 601 3274" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_70_3721" fill="white">
+<path d="M263.5 1174H338.5V3274H263.5V1174Z"/>
+</mask>
+<path d="M263.5 1174H338.5V3274H263.5V1174Z" fill="#FFFF00"/>
+<path d="M335.3 1174V3274H341.7V1174H335.3ZM266.7 3274V1174H260.3V3274H266.7Z" fill="black" mask="url(#path-1-inside-1_70_3721)"/>
+<rect x="264" y="1454.12" width="74" height="314" fill="black" stroke="black"/>
+<rect x="264" y="2149.35" width="74" height="314" fill="black" stroke="black"/>
+<rect x="264" y="2844.58" width="74" height="314" fill="black" stroke="black"/>
+<rect x="2.34375" y="1.69629" width="597" height="1941.75" fill="#FFFF00" stroke="black" stroke-width="3"/>
+<rect x="2.34375" y="1.69629" width="597" height="253" fill="black" stroke="black" stroke-width="3"/>
+<rect x="2.34375" y="1690.45" width="597" height="253" fill="black" stroke="black" stroke-width="3"/>
+<rect x="2.34375" y="654.57" width="597" height="636" fill="black" stroke="black" stroke-width="3"/>
+<circle cx="300.844" cy="972.57" r="242.5" fill="#FFFF00"/>
+<circle cx="300.844" cy="972.57" r="125" fill="black"/>
+</svg>

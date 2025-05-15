@@ -1,0 +1,55 @@
+.banner-div {
+    height: 100%;
+    width: 100%;
+    padding: 3vh;
+    background-image: url('../../../assets/Instructor-station/Icons/banner_image.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4vh;
+    border-top: 0.14vh solid rgba(255, 255, 255, 0.4);
+    border-left: 0.1vh solid rgba(255, 255, 255, 0.4);
+    border-bottom: 0.05vh solid rgba(255, 255, 255, 0.4);
+}
+
+
+.banner-contents {
+    width: 49vw;
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner-titles {
+    width: 49vw;
+    height: 12vh;
+    padding: 1vh;
+    gap: 1vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-title {
+    /* height: 35px;
+    width: 401px; */
+    font-family: "SF Pro", sans-serif;
+    text-align: left;
+    color: #FFFFFFF5;
+    font-size: var(--font-size-2);
+
+}
+
+.banner-subtitle {
+    font-family: "SF Pro", sans-serif;
+    text-align: left;
+    color: #FFFFFFF5;
+    font-size: var(--font-size-5);
+}
+
+.banner-button{
+    width: 14.34vw;
+    height: 6vh;
+    top: 18vh;
+}
+

@@ -1,0 +1,71 @@
+.md_home_container {
+    height: 100vh;
+    width: 100%;
+    background: rgba(68, 56, 56, 1);
+    box-shadow: 0vw 0vh 13vw 1vw rgba(0, 0, 0, 1) inset;
+    padding: 3vh 2vh 2.5vh 2vh;
+}
+
+.md_home_inner_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.md_home_section_one {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.md_home_section_two {
+    height: 15%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 2vh 7vh 2vh 7vh;
+    justify-content: space-between;
+}
+
+.mhso_section_two {
+    height: 100%;
+    width: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+.mhso_section_three,
+.mhso_section_one {
+    height: 100%;
+    width: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.buttonDivs {
+    height: 10vh;
+    width: 10vh;
+}
+
+.buttonDivs img {
+    height: 100%;
+    width: 100%;
+}
+
+.buttonDivs:hover img {
+    height: 95%;
+    width: 95%;
+    cursor:pointer;
+    
+}

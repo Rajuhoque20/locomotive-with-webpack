@@ -1,0 +1,31 @@
+.excercise-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 100%;
+    height: 100%;
+}
+
+.excercise-banner{
+    height: 25vh;
+}
+
+/* .excercixe-header{
+    width: 100%;
+    height: 92px;
+    border: 1px solid red;
+} */
+
+.excercise-cards{
+  width: 100%;
+  height: 50vh;
+  gap: 1vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  cursor: pointer;
+  overflow-y: auto;
+}
+
+.excercise-cards::-webkit-scrollbar {
+    display: none; 
+}

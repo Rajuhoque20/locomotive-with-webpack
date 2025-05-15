@@ -1,0 +1,11 @@
+.glowIndicator {
+  animation: animateInd 0.5s ease-in 0s infinite forwards;
+}
+@keyframes animateInd {
+  0% {
+    filter: brightness(0%);
+  }
+  100% {
+    filter: brightness(100%);
+  }
+}

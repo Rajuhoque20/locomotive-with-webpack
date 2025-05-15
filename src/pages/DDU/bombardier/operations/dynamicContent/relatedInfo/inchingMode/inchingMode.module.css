@@ -1,0 +1,56 @@
+.container{
+    display: grid;
+    color: var(--color-blue);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 100%;
+    font-size: 0.6rem;
+}
+.container>*{
+    border: var(--border-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container>:nth-last-child(1){
+    grid-column: span 2;
+    grid-row: span 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.container>:nth-last-child(1)>:nth-child(1){
+   border: var(--border-primary);
+   padding: 1vh 1vw;
+   border-top: 0;
+   font-size: 1rem;
+   color: var(--color-green);
+}
+.action{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+.action>:nth-child(2){
+    height: 5vh;
+    background-color: var(--color-grey);
+    cursor: pointer;
+    border: 0;
+    font-size: var(--font-size-4);
+    color: var(--color-white);
+    width: 5vh;
+}
+.upAndDownButton{
+    background-color: var(--color-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 5vh;
+    border: 0;
+    cursor: pointer;
+    font-size: var( --font-size-5);
+    color: var(--color-white);
+}

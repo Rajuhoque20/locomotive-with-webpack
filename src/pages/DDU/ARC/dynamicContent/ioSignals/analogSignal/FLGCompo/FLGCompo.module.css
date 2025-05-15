@@ -1,0 +1,27 @@
+.container{
+    height: 100%;
+    background-color: var(--color-dark-blue);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(7,1fr); */
+    font-size: 0.6rem;
+}
+.container>*{
+    border-top: var(--border-primary);
+    border-right: var(--border-primary);
+    line-height: 1.5vh;
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    padding-left: 1vw;
+}
+.title{
+    grid-column: span 3;
+    font-size: 0.8rem;
+    color: var(--color-yellow);
+    font-weight: 600;
+}
+.container>:nth-child(2), .container>:nth-child(3), .container>:nth-child(4){
+    color: var(--color-yellow);
+    font-size: 0.7rem;
+}

@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: var(--color-sky-blue);
+}
+.container>:nth-child(1){
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem;
+    border-bottom: var(--border-primary);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.content{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 2vh 1.5vw 2vh 1.5vw; 
+    font-size: 0.6rem;
+    position: relative;
+}
+.content>:nth-last-child(1){
+    position: absolute;
+    right: 5%;
+    top:40%;
+    font-size: 0.7rem;
+}

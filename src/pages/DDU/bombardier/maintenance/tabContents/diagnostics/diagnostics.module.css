@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    grid-template-columns: 0.7fr 0.7fr 0.7fr 1.2fr 1.2fr 1.2fr;
+    overflow-y: auto;
+    height: 14rem;
+    grid-auto-rows: 1fr;
+}
+.container>*{
+    border: var(--border-primary);
+    color: var(--color-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:0.6rem;
+    text-align: center;
+    padding: 0.3vh 1vh;
+}

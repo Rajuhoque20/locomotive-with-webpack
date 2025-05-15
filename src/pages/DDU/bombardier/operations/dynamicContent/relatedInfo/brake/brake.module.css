@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: repeat(13, 1fr);
+    font-size: 0.6rem;
+    color: var(--color-blue);
+    height: 100%;
+}
+.container>:nth-child(n){
+    border: var(--border-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1vw;
+}

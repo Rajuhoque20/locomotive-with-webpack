@@ -1,0 +1,147 @@
+.footer_action {
+    /* border: 1px solid #8080809b; */
+    width: 49vw;
+    height: 8vh;
+    padding: 1.2vh 2vh;
+    gap: 2vh;
+    border-radius: 1.2vh;
+    border-width: 0.12vh;
+    border-style: solid;
+    background-blend-mode: luminosity;
+    backdrop-filter: blur(100px);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.flag_action {
+    width: 14vw;
+    height: 6vh;
+    background: var(--Windows-Glass, rgba(19, 10, 40, 0.601));
+    background-blend-mode: luminosity;
+    border-radius: 1.2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5vh;
+    gap: 1vh;
+}
+
+.f_action_one {
+    height: 5vh;
+    width: 11vw;
+    border-radius: 1.2vh;
+    background-blend-mode: luminosity;
+    backdrop-filter: blur(100px);
+    background: rgba(155, 154, 158, 0.32);
+
+
+}
+
+.f_action_two {
+    height: 5vh;
+    width: 3vw;
+    border-radius: 1.2vh;
+    background-blend-mode: luminosity;
+    backdrop-filter: blur(100px);
+    background: rgba(155, 154, 158, 0.32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f_action_two img {
+    height: 3vh;
+    width: 3vh;
+}
+
+
+.snap_div {
+    width: 23vh;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2vh;
+    overflow: hidden;
+    padding: 0.1vh;
+
+}
+
+.snap_button_div {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.snap_button_arrow {
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.info1 {
+    width: 7.17vw;
+    height: 9vh;
+}
+
+.info2 {
+    width: 8vw;
+    height: 9vh;
+}
+
+.info3 {
+    width: 6vw;
+    height: 9vh;
+}
+
+.info1,
+.info2,
+.info3 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5vh;
+}
+
+.info_a {
+    width: 100%;
+    height: 2.2vh;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: 'SF Pro', sans-serif;
+    font-size: var(--font-size-3);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.info_b {
+    width: 100%;
+    height: 1.8vh;
+    color: rgb(179, 176, 176);
+    font-size: var(--font-size-4);
+    text-align: left;
+    font-family: 'SF Pro', sans-serif;
+    font-weight: 510;
+    line-height: 1.8vh;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.info4 {
+    width: 4vw;
+    height: 100%;
+    border-left: 0.1vh solid #8080809b;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.info4 img {
+    width: 5vh;
+    height: 5vh;
+}
