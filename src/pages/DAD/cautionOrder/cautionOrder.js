@@ -4,7 +4,7 @@ import { useDADStore } from "../store";
 import websocket from "../../../services/Websocket";
 import { topics } from "../../../constant/topic";
 
-const tableHeaders = [
+export const tableHeaders = [
   "S. No.",
   "Section",
   "Kilometer",

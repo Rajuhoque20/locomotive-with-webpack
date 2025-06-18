@@ -15,7 +15,7 @@ export const DADNav = () => {
             justifyContent: "center",
           }}
         >
-          <svg width="100%" height="100%" viewBox="0 0 40 40">
+          <svg data-testid="arrow" width="100%" height="100%" viewBox="0 0 40 40">
             <path
               d={`M10 10 L0 20 L10 30`}
               stroke="rgba(255, 255, 255, 0.5)"
@@ -51,7 +51,7 @@ export const DADNav = () => {
             justifyContent: "center",
           }}
         >
-          <svg width="100%" height="100%" viewBox="0 0 40 40">
+          <svg data-testid="arrow" width="100%" height="100%" viewBox="0 0 40 40">
             <path
               d="M10 10 L20 20 L10 30"
               stroke="rgba(255, 255, 255, 0.5)"

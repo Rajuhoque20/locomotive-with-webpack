@@ -1,3 +1,4 @@
+import React from 'react';
 import './MimicTrack.css'
 import { Stage, Layer, Line, Image as KonvaImage, Text, Group, Rect, Circle, FastLayer } from "react-konva";
 import { useState, useRef, useEffect, useCallback, useMemo } from 'react';

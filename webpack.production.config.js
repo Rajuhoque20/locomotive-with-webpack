@@ -89,7 +89,7 @@ module.exports={
         }
       ),
         new webpack.DefinePlugin({
-            API_URL: JSON.stringify('https://5s6bjpkt-8080.inc1.devtunnels.ms/'),
+            API_URL: JSON.stringify('https://z4mcbdmx-8080.inc1.devtunnels.ms/'),
         }),
       ],  
        optimization: {

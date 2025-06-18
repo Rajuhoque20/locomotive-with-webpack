@@ -3,6 +3,8 @@ import classes from "./auxiliaryDisplay.module.css";
 import { Icons } from "#framework";
 import websocket from "../../../services/Websocket";
 import { topics } from "../../../constant/topic";
+  const { footer_icon3, footer_icon4 } =Icons.DADIcons;
+
 const Footer = () => {
   const [footer, setFooter] = useState({
     LOCO_PILOT_STOP: false,
@@ -10,9 +12,6 @@ const Footer = () => {
     EXCHANGE_SIGNAL_STOP: false,
     EXCHANGE_SIGNAL_ALLRIGHT: false,
   });
-  const { footer_icon1, footer_icon2, footer_icon3, footer_icon4 } =
-    Icons.DADIcons;
-  let active = true;
 
   useEffect(() => {
     const callback = (event) => {
@@ -68,34 +67,16 @@ const Footer = () => {
           <img src={footer_icon3} />
           <span>Stop</span>
         </div>
-        {/* <div>
-          <img src={footer_icon2} />
-          <span>Caution Order</span>
-        </div> */}
         <div
           className={
             footer?.EXCHANGE_SIGNAL_ALLRIGHT ? classes.activeAlright : ""
           }
-          // onClick={() =>
-          //   setFooter((prev) => ({
-          //     ...prev,
-          //     EXCHANGE_SIGNAL_ALLRIGHT: !prev.EXCHANGE_SIGNAL_ALLRIGHT,
-          //     EXCHANGE_SIGNAL_STOP: prev.EXCHANGE_SIGNAL_ALLRIGHT,
-          //   }))
-          // }
         >
           <img src={footer_icon4} />
           <span>All Right</span>
         </div>
         <div
           className={footer?.EXCHANGE_SIGNAL_STOP ? classes.activeStop : ""}
-          // onClick={() =>
-          //   setFooter((prev) => ({
-          //     ...prev,
-          //     EXCHANGE_SIGNAL_STOP: !prev.EXCHANGE_SIGNAL_STOP,
-          //     EXCHANGE_SIGNAL_ALLRIGHT: prev.EXCHANGE_SIGNAL_STOP,
-          //   }))
-          // }
         >
           <img src={footer_icon3} />
           <span>Stop</span>
